@@ -4,8 +4,8 @@ description: A new Flutter project.
 publish_to: "none"
 
 environment:
-  sdk: ^3.7.0
-  flutter: ">=1.17.0"
+  sdk: ^3.13.0
+  flutter: ">=3.47.0"
 
 resolution: workspace
 
@@ -13,6 +13,8 @@ dependencies:
   flutter:
     sdk: flutter
   hooks_riverpod:
+    git: https://github.com/kumsumit/hooks_riverpod.git
+  material_ui: ^1.11.0
 
 dev_dependencies:
   flutter_test:
